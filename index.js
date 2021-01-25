@@ -49,7 +49,7 @@ const vcard = 'BEGIN:VCARD\n' //GANTI NO DAN NAMA DIBAWAH INI JADI PUNYA LU
 prefix = '#'
 blocked = []   
 limitawal = '2000000'
-cr = '*FADHIL BOT*'
+cr = '*PUPY ABHI*'
 
 /******** OWNER NUMBER**********/
 const ownerNumber = ["919074329903@s.whatsapp.net","8304825484@s.whatsapp.net"] //ganti nomor lu
