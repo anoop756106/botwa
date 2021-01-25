@@ -1389,13 +1389,13 @@ client.on('group-participants-update', async (anu) => {
 						fs.unlinkSync(media)
 						if (err) return reply(ind.stikga())
 						buffer = fs.readFileSync(ran)
-						client.sendMessage(from, buffer, image, {quoted: mek, caption: '𝗱𝗮?? 𝗷𝗮𝗱𝗶 '})
+						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'enjoy'})
 						fs.unlinkSync(ran)
 					})
 					await limitAdd(sender)
 					break
                  case 'simi':
-					if (args.length < 1) return reply('Textnya mana um?')
+					if (args.length < 1) return reply('where is text?')
 					teks = body.slice(5)
 					anu = await simih(teks) //fetchJson(`https://mhankbarbars.herokuapp.com/api/samisami?text=${teks}`, {method: 'get'})
 					//if (anu.error) return reply('Simi ga tau kak')
