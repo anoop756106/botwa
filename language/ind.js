@@ -1,9 +1,9 @@
 exports.wait = () => {
-	return`*「 WAIT 」 SEDANG PROSES*`
+	return`*「 WAIT 」 MWONU WAIT*`
 }
 
 exports.succes = () => {
-	return`*「 SUCCES 」*`
+	return`*「 SUCCESS 」*`
 }
 
 exports.lvlon = () => {
@@ -15,27 +15,27 @@ exports.lvloff = () => {
 }
 
 exports.lvlnul = () => {
-	return`*LEVELMU MASIH KOSONG*`
+	return`*YOUR LEVEL IS STILL EMPTY*`
 }
 
 exports.lvlnoon = () => {
-	return`*LEVEL DI GRUB BELUM DI AKTIFKAN*`
+	return`*GRUB LEVEL IS NOT ACTIVATED YET*`
 }
 
 exports.noregis = () => {
-	return`*「 BELUM DAFTAR 」*\n\n*cara daftar ${prefix}daftar nama|umur* \n*contoh ${prefix}daftar Fadhil|17*`
+	return`*「 NOT REGISTERED 」*\n\n*cara daftar ${prefix}daftar name|Age* \n*example ${prefix}daftar ABHI|18*`
 }
 
 exports.rediregis = () => {
-	return`*「 SUDAH DAFTAR 」*\n\n*kamu sudah terdaftar di database bot*`
+	return`*「 ALREADY REGISTERED 」*\n\n*Already registered to database bot*`
 }
 
 exports.stikga = () => {
-	return`*yah gagal coba ulangi beberapa saat lagi*`
+	return`*failed try again in a While*`
 }
 
 exports.linkga = () => {
-	return`*maaf link tidak valid*`
+	return`*sorry link is valid*`
 }
 
 exports.groupo = () => {
@@ -55,7 +55,7 @@ exports.admin = () => {
 }
 
 exports.badmin = () => {
-	return`*「BOT HARUS JADI ADMIN」*`
+	return`*「BOT ADMIN AVANAM」*`
 }
 
 exports.nsfwoff = () => {
@@ -63,11 +63,11 @@ exports.nsfwoff = () => {
 }
 
 exports.bug = () => {
-	return`*Masalah telah di laporkan ke owner BOT, laporan palsu/main2 tidak akan ditanggapi*`
+	return`*report to the owner BOT, laporan palsu/main2 tidak*`
 }
 
 exports.wrongf = () => {
-	return`*format salah/text kosong*`
+	return`*format is wrong/text empty*`
 }
 
 exports.clears = () => {
@@ -78,16 +78,16 @@ exports.pc = () => {
 	return`*「 REGISTRASI 」*\n\nuntuk mengetahui apa kamu sudah terdaftar silahkah check message yang saya kirim \n\nNOTE:\n*jika kamu belum mendapatkan pesan. berarti kamu belum menyimpan nomer bot*`
 }
 
-exports.registered = (namaUser, umurUser, serialUser, time, sender) => {
-	return`*「 DATA NEGARA 」*\n\nkamu sudah terdaftar dengan data \n\n┏━⊱nama\n┗⊱${namaUser}\n┏━⊱nomer\n┗⊱wa.me/${sender.split("@")[0]}\n┏━⊱umur\n┗⊱${umurUser}\n┏━⊱waktu pendaftaran\n┗⊱${time}\n\n┏━❉ *NS* ❉━\n┣⊱${serialUser}\n┗⊱NOTE : jangan sampai lupa nomer ini karena ini penting:v`
+exports.registered = (username, username, serialUser, time, sender) => {
+	return`*「 DATA 」*\n\register success enjoy mwonu \n\n┏━⊱name\n┗⊱${username}\n┏━⊱number\n┗⊱wa.me/${sender.split("@")[0]}\n┏━⊱umur\n┗⊱${age}\n┏━⊱register time\n┗⊱${time}\n\n┏━❉ *NS* ❉━\n┣⊱${serialUser}\n┗⊱NOTE : MADE BY PUPY AND ABHI:v`
 }
 
 exports.cmdnf = (prefix, command) => {
-	return`command *${prefix}${command}* tidak di temukan\coba tulis *${prefix}menu*`
+	return`command *${prefix}${command}* not Found\try to write *${prefix}menu*`
 }
 
 exports.owneresce = (pushname) => {
-	return`*maaf tapi ${pushname} bukan owner script*`
+	return`*sorry but ${pushname} not owner script*`
 }
 
 exports.reglevelaha = (command, pushname, getLevelingLevel, sender, aha) => {
@@ -116,10 +116,10 @@ exports.reglevelahf = (command, pushname, getLevelingLevel, sender, ahf) => {
 
 exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp, _registered, uangku) => { 
 	return `
-╭══─⊱ ❰ *ABOUT USER* ❱ ⊰─══
-╠☞ *Nama* : ${pushname}
-╠☞ *Nomer* : wa.me/${sender.split("@")[0]}
-╠☞ *Uang mu* : Rp${uangku}
+╭══─⊱ ❰ *LUNA MWOL* ❱ ⊰─══
+╠☞ *Name* : ${pushname}
+╠☞ *NUMBER* : wa.me/${sender.split("@")[0]}
+╠☞ *SUNAPPI* : Rp${uangku}
 ╠☞ *XP* : ${getLevelingXp(sender)}/${reqXp}
 ╠☞ *Level* : ${getLevelingLevel(sender)}
 ╠☞ *User register* : ${_registered.length}
@@ -128,12 +128,12 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
             𝐑𝐮𝐥𝐞𝐬 - 𝐒𝐢𝐦𝐩𝐥𝐞
 ▬▭▬▭▬▭▬▭▬▭▬▭▬
 ●⧐ *Spam : Auto Block!*
-●⧐ *Beri Jeda 5detik Saat Menggunakannya!!*
-●⧐ *Bug/Error Harap Cht Owner!*
-●⧐ *Untuk Memastikan Bot Off Atau On*
-●⧐ *Ketik ${prefix}bot*
-●⧐ *Harap Sabar Dengan Bug²nya!*
-●⧐ *Gunakan Bot Sebaik-baiknya!*
+●⧐ *respect bot!!*
+●⧐ *ABHI IS THE OWNER!*
+●⧐ *spam cheythal off aavum*
+●⧐ *use ${prefix}bot*
+●⧐ *thanks to pupy !*
+●⧐ *special thanks to me!*
 ▬▭▬▭▬▭▬▭▬▭▬▭▬
 
 ╭══─⊱ ❰ *MAKER MENU* ❱ ⊰─══➤
@@ -217,20 +217,20 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
 ║
 ╠══─⊱ ❰ *THANGKS TO* ❱ ⊰─══➤
 ║
-╠☞ *AFFIS JUNIANTO*
-╠☞ *FADHIL GRAPHY*
-╠☞ *XPTN (AGUNG)*
-╠☞ *MYBOT TEAM*
+╠☞ *PUPY SER*
+╠☞ *KARIMKOTTA*
+╠☞ *KOCHU GANG ARMY*
+╠☞ *THE LAST CREW*
 ║
-╰════─⊱  ⸨ *FADHIL* ⸩  ⊰─════╯
+╰════─⊱  ⸨ *TLC-ABHI* ⸩  ⊰─════╯
 `
 }
 
 exports.levelup = (pushname, sender, getLevelingXp,  getLevel, getLevelingLevel) => {
 	return`
-*「 SELAMAT 」*
-┏⊱ *Nama* : ${pushname}
-┣⊱ *Nomer* : wa.me/${sender.split("@")[0]}
+*「 enjoy 」*
+┏⊱ *Name* : ${pushname}
+┣⊱ *Number* : wa.me/${sender.split("@")[0]}
 ┣⊱ *Xp* : ${getLevelingXp(sender)}
 ┗⊱ *Level* : ${getLevel} ⊱ ${getLevelingLevel(sender)}
 `}
@@ -252,5 +252,5 @@ exports.satukos = () => {
 }
 
 exports.uangkau = (pushname, sender, uangkau) => {
-	return`*┏⊱ *「 ATM 」* ━┓\n┣⊱ *Nama* : ${pushname}\n┣⊱ *Nomer* : ${sender.split("@")[0]}\n┣⊱ *Uang* : ${uangkau}\n┗━━━━━━━━━━`
+	return`*┏⊱ *「 ATM 」* ━┓\n┣⊱ *Name* : ${pushname}\n┣⊱ *Number* : ${sender.split("@")[0]}\n┣⊱ *Uang* : ${uangkau}\n┗━━━━━━━━━━`
 }
