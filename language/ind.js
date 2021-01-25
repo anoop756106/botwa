@@ -78,8 +78,8 @@ exports.pc = () => {
 	return`*「 REGISTRASI 」*\n\nuntuk mengetahui apa kamu sudah terdaftar silahkah check message yang saya kirim \n\nNOTE:\n*jika kamu belum mendapatkan pesan. berarti kamu belum menyimpan nomer bot*`
 }
 
-exports.registered = (username, username, serialUser, time, sender) => {
-	return`*「 DATA 」*\n\register success enjoy mwonu \n\n┏━⊱name\n┗⊱${username}\n┏━⊱number\n┗⊱wa.me/${sender.split("@")[0]}\n┏━⊱umur\n┗⊱${age}\n┏━⊱register time\n┗⊱${time}\n\n┏━❉ *NS* ❉━\n┣⊱${serialUser}\n┗⊱NOTE : MADE BY PUPY AND ABHI:v`
+exports.registered = (username, age, serialUser, time, sender) => {
+	return`*「 DATA 」*\n\register success enjoy mwonu \n\n┏━⊱name\n┗⊱${username}\n┏━⊱number\n┗⊱wa.me/${sender.split("@")[0]}\n┏━⊱age\n┗⊱${age}\n┏━⊱register time\n┗⊱${time}\n\n┏━❉ *NS* ❉━\n┣⊱${serialUser}\n┗⊱NOTE : MADE BY PUPY AND ABHI:v`
 }
 
 exports.cmdnf = (prefix, command) => {
