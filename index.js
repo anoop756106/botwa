@@ -42,9 +42,9 @@ const { removeBackgroundFromImageFile } = require('remove.bg')
 const { ind } = require('./language')
 const vcard = 'BEGIN:VCARD\n' //GANTI NO DAN NAMA DIBAWAH INI JADI PUNYA LU
             + 'VERSION:3.0\n' //JANGAN HILANGKAN CREDIT
-            + 'FN:Fadhil Graphy\n' //PENGEMBANG BY :
-            + 'ORG: Pengembang Fadhil Bot;\n' //MYBOT TEAM
-            + 'TEL;type=CELL;type=VOICE;waid=919074329903:+91 9074329903\n' 
+            + 'FN:PUPY Graphy\n' //PENGEMBANG BY :
+            + 'ORG: Rambo Bot;\n' //MYBOT TEAM
+            + 'TEL;type=CELL;type=VOICE;waid=+918304825484:+91 8304825484\n' 
             + 'END:VCARD' //SCRIPT ORI FROM MAHANKBARBAR
 prefix = '#'
 blocked = []   
@@ -52,7 +52,7 @@ limitawal = '2000000'
 cr = '*PUPY ABHI*'
 
 /******** OWNER NUMBER**********/
-const ownerNumber = ["919074329903@s.whatsapp.net","918304825484@s.whatsapp.net"] //ganti nomor lu
+const ownerNumber ="918304825484@s.whatsapp.net"] //ganti nomor lu
 /************************************/
 
        
